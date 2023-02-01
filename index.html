@@ -12,10 +12,8 @@
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script>
         $("#cloaking").click(function() {
-            $("#wraith").fadeOut("slow", function() {
-                $("#wraith").fadeIn("slow");
+            $("#wraith").fadeToggle("slow");
             } );
-        } );
   </script>
 </body>
 </html>
